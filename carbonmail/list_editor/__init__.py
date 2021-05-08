@@ -22,7 +22,7 @@ class List_Editor:
         while True:
             event, values = self.window.read()
 
-            if event == WIN_CLOSED:
+            if event in (WIN_CLOSED, "-Back-"):
                 self.window.close()
                 self.ems.unhide_window()
                 break
