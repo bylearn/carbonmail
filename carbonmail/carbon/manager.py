@@ -25,6 +25,7 @@ def prepare_payload(code_path):
     with open(json_path) as json_file:
         payload = json.load(json_file)
 
+
     payload["code"] = extract_code(code_path)
 
     return payload
