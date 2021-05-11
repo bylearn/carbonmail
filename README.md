@@ -55,5 +55,5 @@ pip install -r requirements.txt
 Use o seguinte comando:
 
 ```bash
-pyinstaller -wF --clean .\carbonmail\_\_main\_\_.py -i carbon.ico
+pyinstaller -wF --clean .\carbonmail\__main__.py -i carbon.ico
 ```
